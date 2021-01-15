@@ -6,16 +6,18 @@
 //
 
 import SwiftUI
+import UIComponents
 
-struct ContentView: View {
+struct RootView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CustomNavigationView(title: "News") {
+            CountryList()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        RootView()
     }
 }

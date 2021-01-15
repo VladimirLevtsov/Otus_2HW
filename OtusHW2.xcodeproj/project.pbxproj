@@ -3,23 +3,73 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C931DCD425B04C29005F048E /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = C931DCD325B04C29005F048E /* countries.json */; };
+		C93767FE259B260B005F73E8 /* CountryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93767FD259B260B005F73E8 /* CountryRow.swift */; };
+		C937680C259B57B9005F73E8 /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C937680B259B57B9005F73E8 /* LazyView.swift */; };
+		C94EF67F25B0E28100D07AD3 /* NewsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF67E25B0E28100D07AD3 /* NewsDetailsView.swift */; };
+		C94EF68225B0E43E00D07AD3 /* NewsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF68125B0E43E00D07AD3 /* NewsType.swift */; };
+		C94EF68525B0E49800D07AD3 /* OffsetPagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF68425B0E49800D07AD3 /* OffsetPagination.swift */; };
+		C94EF68825B0E8D500D07AD3 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF68725B0E8D500D07AD3 /* ArticleViewModel.swift */; };
+		C94EF68E25B0EA6500D07AD3 /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF68D25B0EA6500D07AD3 /* CountryListViewModel.swift */; };
+		C94EF69125B0EDB500D07AD3 /* NewsDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF69025B0EDB400D07AD3 /* NewsDetailsViewModel.swift */; };
+		C94EF69425B0EEC400D07AD3 /* RelativeDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF69325B0EEC400D07AD3 /* RelativeDateFormatter.swift */; };
+		C94EF69825B0EEFA00D07AD3 /* DateFormatter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF69725B0EEFA00D07AD3 /* DateFormatter+.swift */; };
+		C94EF69B25B0EF1800D07AD3 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF69A25B0EF1800D07AD3 /* Date+.swift */; };
+		C94EF69E25B0F43A00D07AD3 /* Article+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF69D25B0F43A00D07AD3 /* Article+.swift */; };
+		C94EF6A225B0F66B00D07AD3 /* RandomAccessCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94EF6A125B0F66B00D07AD3 /* RandomAccessCollection.swift */; };
 		C95320582599F89300308461 /* OtusHW2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95320572599F89300308461 /* OtusHW2App.swift */; };
-		C953205A2599F89300308461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95320592599F89300308461 /* ContentView.swift */; };
+		C953205A2599F89300308461 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95320592599F89300308461 /* RootView.swift */; };
 		C953205C2599F89400308461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C953205B2599F89400308461 /* Assets.xcassets */; };
 		C953205F2599F89400308461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C953205E2599F89400308461 /* Preview Assets.xcassets */; };
+		C9532074259B182200308461 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9532073259B182200308461 /* NewsListView.swift */; };
+		C9532079259B198F00308461 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9532078259B198F00308461 /* CountryList.swift */; };
+		C9532089259B236200308461 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = C9532088259B236200308461 /* Network */; };
+		C953208D259B24C800308461 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C953208C259B24C800308461 /* City.swift */; };
+		C95725D125B0292400FAAD22 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95725D025B0292400FAAD22 /* NewsManager.swift */; };
+		C95725D725B02D5A00FAAD22 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = C95725D625B02D5A00FAAD22 /* UIComponents */; };
+		C9A2E23325B18AC900F46B70 /* AsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = C9A2E23225B18AC900F46B70 /* AsyncImage */; };
+		C9D6DA7E25B04CE9001AF1B4 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA7D25B04CE9001AF1B4 /* Country.swift */; };
+		C9D6DA8125B04D08001AF1B4 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA8025B04D08001AF1B4 /* CountryManager.swift */; };
+		C9D6DA9425B0659D001AF1B4 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA9325B0659D001AF1B4 /* ArticleRowView.swift */; };
+		C9D6DA9725B06709001AF1B4 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA9625B06709001AF1B4 /* NewsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C931DCD325B04C29005F048E /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		C93767FD259B260B005F73E8 /* CountryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRow.swift; sourceTree = "<group>"; };
+		C937680B259B57B9005F73E8 /* LazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		C94EF67E25B0E28100D07AD3 /* NewsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsView.swift; sourceTree = "<group>"; };
+		C94EF68125B0E43E00D07AD3 /* NewsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsType.swift; sourceTree = "<group>"; };
+		C94EF68425B0E49800D07AD3 /* OffsetPagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetPagination.swift; sourceTree = "<group>"; };
+		C94EF68725B0E8D500D07AD3 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		C94EF68D25B0EA6500D07AD3 /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		C94EF69025B0EDB400D07AD3 /* NewsDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewModel.swift; sourceTree = "<group>"; };
+		C94EF69325B0EEC400D07AD3 /* RelativeDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeDateFormatter.swift; sourceTree = "<group>"; };
+		C94EF69725B0EEFA00D07AD3 /* DateFormatter+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+.swift"; sourceTree = "<group>"; };
+		C94EF69A25B0EF1800D07AD3 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		C94EF69D25B0F43A00D07AD3 /* Article+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Article+.swift"; sourceTree = "<group>"; };
+		C94EF6A125B0F66B00D07AD3 /* RandomAccessCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomAccessCollection.swift; sourceTree = "<group>"; };
 		C95320542599F89300308461 /* OtusHW2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusHW2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95320572599F89300308461 /* OtusHW2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtusHW2App.swift; sourceTree = "<group>"; };
-		C95320592599F89300308461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C95320592599F89300308461 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		C953205B2599F89400308461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C953205E2599F89400308461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C95320602599F89400308461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9532070259A86C500308461 /* Network */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Network; sourceTree = "<group>"; };
+		C9532073259B182200308461 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		C9532078259B198F00308461 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		C953208C259B24C800308461 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		C95725D025B0292400FAAD22 /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		C95725D325B02CDD00FAAD22 /* UIComponents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UIComponents; sourceTree = "<group>"; };
+		C9A2E22F25B18A6E00F46B70 /* AsyncImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AsyncImage; sourceTree = "<group>"; };
+		C9D6DA7D25B04CE9001AF1B4 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		C9D6DA8025B04D08001AF1B4 /* CountryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryManager.swift; sourceTree = "<group>"; };
+		C9D6DA9325B0659D001AF1B4 /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
+		C9D6DA9625B06709001AF1B4 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +77,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C95725D725B02D5A00FAAD22 /* UIComponents in Frameworks */,
+				C9532089259B236200308461 /* Network in Frameworks */,
+				C9A2E23325B18AC900F46B70 /* AsyncImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9376801259B2D70005F73E8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C937680B259B57B9005F73E8 /* LazyView.swift */,
+				C94EF69325B0EEC400D07AD3 /* RelativeDateFormatter.swift */,
+				C94EF69625B0EEED00D07AD3 /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C94EF67C25B0E14B00D07AD3 /* NewsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				C94EF67E25B0E28100D07AD3 /* NewsDetailsView.swift */,
+				C94EF69025B0EDB400D07AD3 /* NewsDetailsViewModel.swift */,
+			);
+			path = NewsDetails;
+			sourceTree = "<group>";
+		};
+		C94EF68B25B0E91B00D07AD3 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6DA9325B0659D001AF1B4 /* ArticleRowView.swift */,
+				C94EF68725B0E8D500D07AD3 /* ArticleViewModel.swift */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		C94EF69625B0EEED00D07AD3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C94EF69725B0EEFA00D07AD3 /* DateFormatter+.swift */,
+				C94EF69A25B0EF1800D07AD3 /* Date+.swift */,
+				C94EF69D25B0F43A00D07AD3 /* Article+.swift */,
+				C94EF6A125B0F66B00D07AD3 /* RandomAccessCollection.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C953204B2599F89300308461 = {
 			isa = PBXGroup;
 			children = (
 				C95320562599F89300308461 /* OtusHW2 */,
 				C95320552599F89300308461 /* Products */,
+				C9532087259B236200308461 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,10 +146,15 @@
 			isa = PBXGroup;
 			children = (
 				C95320572599F89300308461 /* OtusHW2App.swift */,
-				C95320592599F89300308461 /* ContentView.swift */,
-				C953205B2599F89400308461 /* Assets.xcassets */,
-				C95320602599F89400308461 /* Info.plist */,
-				C953205D2599F89400308461 /* Preview Content */,
+				C95320592599F89300308461 /* RootView.swift */,
+				C9532077259B197E00308461 /* CountryList */,
+				C9532072259B180400308461 /* News */,
+				C94EF67C25B0E14B00D07AD3 /* NewsDetails */,
+				C953206D2599FE5400308461 /* Managers */,
+				C953208B259B24BB00308461 /* Models */,
+				C9376801259B2D70005F73E8 /* Helpers */,
+				C95320672599FDA500308461 /* Resources */,
+				C953206F259A865E00308461 /* Modules */,
 			);
 			path = OtusHW2;
 			sourceTree = "<group>";
@@ -67,6 +165,74 @@
 				C953205E2599F89400308461 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C95320672599FDA500308461 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C931DCD325B04C29005F048E /* countries.json */,
+				C953205B2599F89400308461 /* Assets.xcassets */,
+				C95320602599F89400308461 /* Info.plist */,
+				C953205D2599F89400308461 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C953206D2599FE5400308461 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6DA8025B04D08001AF1B4 /* CountryManager.swift */,
+				C95725D025B0292400FAAD22 /* NewsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C953206F259A865E00308461 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C9A2E22F25B18A6E00F46B70 /* AsyncImage */,
+				C95725D325B02CDD00FAAD22 /* UIComponents */,
+				C9532070259A86C500308461 /* Network */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C9532072259B180400308461 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C9532073259B182200308461 /* NewsListView.swift */,
+				C9D6DA9625B06709001AF1B4 /* NewsListViewModel.swift */,
+				C94EF68B25B0E91B00D07AD3 /* Article */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		C9532077259B197E00308461 /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				C9532078259B198F00308461 /* CountryList.swift */,
+				C94EF68D25B0EA6500D07AD3 /* CountryListViewModel.swift */,
+				C93767FD259B260B005F73E8 /* CountryRow.swift */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		C9532087259B236200308461 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C953208B259B24BB00308461 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C953208C259B24C800308461 /* City.swift */,
+				C9D6DA7D25B04CE9001AF1B4 /* Country.swift */,
+				C94EF68125B0E43E00D07AD3 /* NewsType.swift */,
+				C94EF68425B0E49800D07AD3 /* OffsetPagination.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +251,11 @@
 			dependencies = (
 			);
 			name = OtusHW2;
+			packageProductDependencies = (
+				C9532088259B236200308461 /* Network */,
+				C95725D625B02D5A00FAAD22 /* UIComponents */,
+				C9A2E23225B18AC900F46B70 /* AsyncImage */,
+			);
 			productName = OtusHW2;
 			productReference = C95320542599F89300308461 /* OtusHW2.app */;
 			productType = "com.apple.product-type.application";
@@ -127,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C953205F2599F89400308461 /* Preview Assets.xcassets in Resources */,
+				C931DCD425B04C29005F048E /* countries.json in Resources */,
 				C953205C2599F89400308461 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +310,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C953205A2599F89300308461 /* ContentView.swift in Sources */,
+				C94EF69B25B0EF1800D07AD3 /* Date+.swift in Sources */,
+				C9D6DA8125B04D08001AF1B4 /* CountryManager.swift in Sources */,
+				C94EF68825B0E8D500D07AD3 /* ArticleViewModel.swift in Sources */,
+				C94EF69125B0EDB500D07AD3 /* NewsDetailsViewModel.swift in Sources */,
+				C9532079259B198F00308461 /* CountryList.swift in Sources */,
+				C94EF69825B0EEFA00D07AD3 /* DateFormatter+.swift in Sources */,
+				C94EF69E25B0F43A00D07AD3 /* Article+.swift in Sources */,
+				C9532074259B182200308461 /* NewsListView.swift in Sources */,
+				C93767FE259B260B005F73E8 /* CountryRow.swift in Sources */,
+				C94EF6A225B0F66B00D07AD3 /* RandomAccessCollection.swift in Sources */,
+				C95725D125B0292400FAAD22 /* NewsManager.swift in Sources */,
+				C953208D259B24C800308461 /* City.swift in Sources */,
+				C94EF68525B0E49800D07AD3 /* OffsetPagination.swift in Sources */,
+				C94EF69425B0EEC400D07AD3 /* RelativeDateFormatter.swift in Sources */,
+				C94EF68225B0E43E00D07AD3 /* NewsType.swift in Sources */,
+				C937680C259B57B9005F73E8 /* LazyView.swift in Sources */,
+				C953205A2599F89300308461 /* RootView.swift in Sources */,
+				C9D6DA9425B0659D001AF1B4 /* ArticleRowView.swift in Sources */,
+				C9D6DA7E25B04CE9001AF1B4 /* Country.swift in Sources */,
 				C95320582599F89300308461 /* OtusHW2App.swift in Sources */,
+				C94EF67F25B0E28100D07AD3 /* NewsDetailsView.swift in Sources */,
+				C9D6DA9725B06709001AF1B4 /* NewsListViewModel.swift in Sources */,
+				C94EF68E25B0EA6500D07AD3 /* CountryListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +461,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"OtusHW2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "OtusHW2/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = 6RN265DRN7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = OtusHW2/Info.plist;
+				INFOPLIST_FILE = OtusHW2/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,10 +483,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"OtusHW2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "OtusHW2/Resources/Preview\\ Content";
 				DEVELOPMENT_TEAM = 6RN265DRN7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = OtusHW2/Info.plist;
+				INFOPLIST_FILE = OtusHW2/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -328,6 +521,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9532088259B236200308461 /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Network;
+		};
+		C95725D625B02D5A00FAAD22 /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComponents;
+		};
+		C9A2E23225B18AC900F46B70 /* AsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C953204C2599F89300308461 /* Project object */;
 }
