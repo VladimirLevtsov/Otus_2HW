@@ -22,16 +22,23 @@ final class NewsListViewModel: ObservableObject {
     
     @Published private (set) var articleVMs = [ArticleViewModel]()
     @Published var isFetching: Bool = false
+    @Published var currentFilter: NewsType = .top {
+        didSet {
+            refreshNews()
+        }
+    }
+    
+    
     private var articles = [Article]() {
         didSet {
             articleVMs = articles.map({mapArticle($0)})
         }
     }
     
-    func refreshNews(for type: NewsType) {
+    func refreshNews() {
         articles = []
         pagination.drop()
-        switch type {
+        switch currentFilter {
         case .all:
             fetchFeedNews()
         case .top:

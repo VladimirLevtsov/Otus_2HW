@@ -13,8 +13,8 @@ struct CountryList: View {
     
     var body: some View {
         List(vm.getCountryVMList()) { countryVM in
-            CustomNavigationLink(destination: LazyView(NewsListView()
-                                                        .environmentObject(NewsListViewModel(country: countryVM.id)))) {
+            CustomNavigationLink(destination: NewsListView()
+                                                        .environmentObject(NewsListViewModel(country: countryVM.id))) {
                 CountryRow(viewModel: countryVM)
             }
         }

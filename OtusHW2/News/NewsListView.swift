@@ -11,14 +11,12 @@ import Combine
 
 struct NewsListView: View {
     @EnvironmentObject var newsListViewModel: NewsListViewModel
-    @State private var selectedSegment = 0
     
     var body: some View {
         let binding = Binding<Int>.init { () -> Int in
-            return self.selectedSegment
+            return self.newsListViewModel.currentFilter.rawValue
         } set: { (value) in
-            self.selectedSegment = value
-            self.newsListViewModel.refreshNews(for: value == 0 ? .top : .all)
+            self.newsListViewModel.currentFilter = NewsType(rawValue: value) ?? .top
         }
 
         ZStack {
@@ -37,7 +35,7 @@ struct NewsListView: View {
                     ) {
                         ArticleRowView(viewModel: article)
                             .onAppear {
-                                if newsListViewModel.articleVMs.isLast(article) && selectedSegment == 1 {
+                                if newsListViewModel.articleVMs.isLast(article) && newsListViewModel.currentFilter == .all {
                                     newsListViewModel.fetchFeedNews()
                                 }
                             }
@@ -50,9 +48,12 @@ struct NewsListView: View {
                 
         }
         .onAppear {
-           // guard newsListViewModel.articleVMs.isEmpty else { return }
-            newsListViewModel.refreshNews(for: NewsType(rawValue: selectedSegment) ?? .top)
+            if newsListViewModel.articleVMs.isEmpty {
+                newsListViewModel.refreshNews()
+            }
+            
         }
+        
     }
 }
 
