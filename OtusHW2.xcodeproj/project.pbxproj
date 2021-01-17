@@ -36,6 +36,9 @@
 		C9D6DA8125B04D08001AF1B4 /* CountryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA8025B04D08001AF1B4 /* CountryManager.swift */; };
 		C9D6DA9425B0659D001AF1B4 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA9325B0659D001AF1B4 /* ArticleRowView.swift */; };
 		C9D6DA9725B06709001AF1B4 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6DA9625B06709001AF1B4 /* NewsListViewModel.swift */; };
+		C9FE4A0725B4F53400A5EAC3 /* AsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = C9FE4A0625B4F53400A5EAC3 /* AsyncImage */; };
+		C9FE4A0B25B4F56700A5EAC3 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = C9FE4A0A25B4F56700A5EAC3 /* UIComponents */; };
+		C9FE4A0F25B4F57100A5EAC3 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = C9FE4A0E25B4F57100A5EAC3 /* Network */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +83,9 @@
 				C95725D725B02D5A00FAAD22 /* UIComponents in Frameworks */,
 				C9532089259B236200308461 /* Network in Frameworks */,
 				C9A2E23325B18AC900F46B70 /* AsyncImage in Frameworks */,
+				C9FE4A0F25B4F57100A5EAC3 /* Network in Frameworks */,
+				C9FE4A0725B4F53400A5EAC3 /* AsyncImage in Frameworks */,
+				C9FE4A0B25B4F56700A5EAC3 /* UIComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +261,9 @@
 				C9532088259B236200308461 /* Network */,
 				C95725D625B02D5A00FAAD22 /* UIComponents */,
 				C9A2E23225B18AC900F46B70 /* AsyncImage */,
+				C9FE4A0625B4F53400A5EAC3 /* AsyncImage */,
+				C9FE4A0A25B4F56700A5EAC3 /* UIComponents */,
+				C9FE4A0E25B4F57100A5EAC3 /* Network */,
 			);
 			productName = OtusHW2;
 			productReference = C95320542599F89300308461 /* OtusHW2.app */;
@@ -283,6 +292,11 @@
 				Base,
 			);
 			mainGroup = C953204B2599F89300308461;
+			packageReferences = (
+				C9FE4A0525B4F53400A5EAC3 /* XCRemoteSwiftPackageReference "AsyncImage" */,
+				C9FE4A0925B4F56700A5EAC3 /* XCRemoteSwiftPackageReference "UIComponents" */,
+				C9FE4A0D25B4F57100A5EAC3 /* XCRemoteSwiftPackageReference "Network" */,
+			);
 			productRefGroup = C95320552599F89300308461 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -522,6 +536,33 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		C9FE4A0525B4F53400A5EAC3 /* XCRemoteSwiftPackageReference "AsyncImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VladimirLevtsov/AsyncImage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C9FE4A0925B4F56700A5EAC3 /* XCRemoteSwiftPackageReference "UIComponents" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VladimirLevtsov/UIComponents";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C9FE4A0D25B4F57100A5EAC3 /* XCRemoteSwiftPackageReference "Network" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/VladimirLevtsov/Network";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		C9532088259B236200308461 /* Network */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -534,6 +575,21 @@
 		C9A2E23225B18AC900F46B70 /* AsyncImage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AsyncImage;
+		};
+		C9FE4A0625B4F53400A5EAC3 /* AsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9FE4A0525B4F53400A5EAC3 /* XCRemoteSwiftPackageReference "AsyncImage" */;
+			productName = AsyncImage;
+		};
+		C9FE4A0A25B4F56700A5EAC3 /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9FE4A0925B4F56700A5EAC3 /* XCRemoteSwiftPackageReference "UIComponents" */;
+			productName = UIComponents;
+		};
+		C9FE4A0E25B4F57100A5EAC3 /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9FE4A0D25B4F57100A5EAC3 /* XCRemoteSwiftPackageReference "Network" */;
+			productName = Network;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
